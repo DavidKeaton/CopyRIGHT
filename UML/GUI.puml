@@ -1,0 +1,61 @@
+@startuml
+package UI {
+    abstract class GUI {
+        -self : HANDLE
+        -children[] : HANDLE
+
+        +GUI()
+
+        +add(Element)
+        +add(Elements)
+
+        #update()
+        #finalizeButton(Object)
+    }
+}
+
+package Android {
+    class Android.GUI {
+        -self : HANDLE
+        -children[] : HANDLE
+
+        +GUI()
+
+        +add(Element)
+        +add(Elements)
+
+        #update()
+        #finalizeButton(Object)
+    }
+}
+
+package Desktop {
+    class Desktop.GUI {
+        -self : HANDLE
+        -children[] : HANDLE
+
+        +GUI()
+
+        +add(Element)
+        +add(Elements)
+
+        #update()
+        #finalizeButton(Object)
+    }
+}
+GUI <|--- Desktop.GUI
+@enduml
+
+/*
+class Desktop.Window { }
+class Desktop.Layout { }
+class Desktop.Checkbox { }
+class Desktop.Label { }
+class Desktop.EventListener { }
+
+Window <|--- Desktop.Window
+Layout <|--- Desktop.Layout
+Checkbox <|--- Desktop.Checkbox
+Label <|--- Desktop.Label
+Listener <|--- Desktop.EventListener
+*/

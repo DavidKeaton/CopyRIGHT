@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3ff969a-dd71-4462-a452-1cead0798ba0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/src/Page/Choice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Page/src/Page/Choice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/src/Page/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/Page/src/Page/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/src/Page/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Page/src/Page/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/src/UI/AbstractGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/UI/AbstractGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/src/UI/Desktop/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/UI/Desktop/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/src/UI/Display/Element/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/UI/Display/Element/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/src/UI/Display/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/UI/Display/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CopyRIGHT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CopyRIGHT.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="desktop" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CopyRIGHT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/src/UI/Desktop/GUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#addButtons#0;class#GUI#0" />
+                <element signature="method#next#0;class#GUI#0" />
+                <element signature="docComment;method#actionPerformed#0;class#Listener#0;class#GUI#0" expanded="true" />
+                <element signature="e#5004#5005#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/src/UI/AbstractGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#AbstractGUI#0" expanded="true" />
+                <element signature="method#AbstractGUI#0;class#AbstractGUI#0" />
+                <element signature="e#1319#1366#0" expanded="true" />
+                <element signature="e#1243#1263#0" expanded="true" />
+                <element signature="method#addButtons#0;class#AbstractGUI#0" />
+                <element signature="e#1828#2041#1" />
+                <element signature="e#1218#1254#0" expanded="true" />
+                <element signature="e#1652#1670#0" expanded="true" />
+                <element signature="method#calculateTotal#0;class#AbstractGUI#0" />
+                <element signature="method#choose#0;class#AbstractGUI#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/flow.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="116" column="21" lean-forward="true" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+              <folding>
+                <element signature="n#Form#0;n#resources#0;n#!!top" expanded="true" />
+                <element signature="n#Page#0;n#Form#0;n#resources#0;n#!!top" expanded="true" />
+                <element signature="n#Page#0;n#Form#1;n#resources#0;n#!!top" expanded="true" />
+                <element signature="n#Page#5;n#Form#1;n#resources#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/src/Page/Form.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="102" column="78" selection-start-line="102" selection-start-column="78" selection-end-line="102" selection-end-column="78" />
+              <folding>
+                <element signature="e#4321#4340#1" />
+                <element signature="e#4749#4750#0" expanded="true" />
+                <element signature="method#setError#0;class#Form#0" />
+                <element signature="docComment;method#load#0;class#Form#0" expanded="true" />
+                <element signature="method#tattle#0;class#Form#0" />
+                <element signature="e#4833#4891#1" />
+                <element signature="e#6047#6048#0" expanded="true" />
+                <element signature="e#6428#6429#0" expanded="true" />
+                <element signature="e#6470#6471#0" expanded="true" />
+                <element signature="e#6555#6556#0" expanded="true" />
+                <element signature="e#6486#6528#1" />
+                <element signature="e#7958#7959#0" expanded="true" />
+                <element signature="method#parse#0;class#Form#0" />
+                <element signature="method#parse#1;class#Form#0" />
+                <element signature="method#clone#0;class#Form#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/src/Page/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2318">
+              <caret line="195" column="16" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/src/Page/Choice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+              <folding>
+                <element signature="docComment;class#Choice#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../android/app/src/main/java/edu/vccs/email/dmk2303/CopyRIGHT/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../android/app/src/main/java/edu/vccs/email/dmk2303/CopyRIGHT/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Page/src/Page/Choice.java" />
+        <option value="$PROJECT_DIR$/Page/src/Page/Page.java" />
+        <option value="$PROJECT_DIR$/Page/src/Page/Form.java" />
+        <option value="$PROJECT_DIR$/UI/src/UI/Display/Window.java" />
+        <option value="$PROJECT_DIR$/UI/src/UI/Display/Element/Button.java" />
+        <option value="$PROJECT_DIR$/UI/src/UI/AbstractGUI.java" />
+        <option value="$PROJECT_DIR$/UI/src/UI/Desktop/GUI.java" />
+        <option value="$PROJECT_DIR$/src/CopyRIGHT.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="imTqOEbN" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <flattenPackages PackagesPane="true" />
+      <showModules PackagesPane="true" />
+      <showLibraryContents PackagesPane="false" />
+      <abbreviatePackageNames PackagesPane="true" />
+      <autoscrollToSource PackagesPane="true" />
+      <autoscrollFromSource PackagesPane="true" />
+      <sortByType PackagesPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="desktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="desktop" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="desktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="desktop" type="616d4139:PackageViewModuleNode" />
+              <item name="e.v.e.d.CopyRIGHT" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="desktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Page" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="desktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Page" type="616d4139:PackageViewModuleNode" />
+              <item name="e.v.e.d.C.Page" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="desktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="UI" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="desktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="UI" type="616d4139:PackageViewModuleNode" />
+              <item name="e.v.e.d.C.UI" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="desktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="UI" type="616d4139:PackageViewModuleNode" />
+              <item name="e.v.e.d.C.UI.Desktop" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="desktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="UI" type="616d4139:PackageViewModuleNode" />
+              <item name="e.v.e.d.C.UI.Display" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="desktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="UI" type="616d4139:PackageViewModuleNode" />
+              <item name="e.v.e.d.C.UI.Display.Element" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="desktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="UI" type="616d4139:PackageViewModuleNode" />
+              <item name="e.v.e.d.C.UI.Event" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desktop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="/opt/android-sdk-update-manager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../android/app/src/main/java/edu/vccs/email/dmk2303/CopyRIGHT/MainActivity.java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Desktop">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Desktop" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.vccs.email.dmk2303.CopyRIGHT.CopyRIGHT" />
+      <module name="desktop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_Make Page JAR" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="UI" run_configuration_type="JarApplication" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_Make UI JAR" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Page" run_configuration_type="JarApplication" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Page" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/../lib/Page.jar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <module name="Page" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UI" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/../lib/UI.jar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <module name="UI" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Desktop" />
+      <item itemvalue="JAR Application.Page" />
+      <item itemvalue="JAR Application.UI" />
+    </list>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_ANONYMOUS,SHOW_LAMBDA,SHOW_PROPERTIES,SHOW_INTERFACES,VISIBILITY_SORTER,ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3ff969a-dd71-4462-a452-1cead0798ba0" name="Default Changelist" comment="" />
+      <created>1556469970187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556469970187</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.38690478" visible="true" weight="0.24962063" />
+      <window_info id="Structure" order="5" sideWeight="0.6130952" side_tool="true" visible="true" weight="0.24962063" />
+      <window_info id="Favorites" order="6" sideWeight="0.5014881" side_tool="true" weight="0.24962063" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32886904" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32886904" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="PlantUML" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Cargo" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UI/src/UI/Display/Element/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/src/UI/Display/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/flow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="116" column="21" lean-forward="true" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+          <folding>
+            <element signature="n#Form#0;n#resources#0;n#!!top" expanded="true" />
+            <element signature="n#Page#0;n#Form#0;n#resources#0;n#!!top" expanded="true" />
+            <element signature="n#Page#0;n#Form#1;n#resources#0;n#!!top" expanded="true" />
+            <element signature="n#Page#5;n#Form#1;n#resources#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../android/app/src/main/java/edu/vccs/email/dmk2303/CopyRIGHT/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/src/Page/Choice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+          <folding>
+            <element signature="docComment;class#Choice#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/src/Page/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2318">
+          <caret line="195" column="16" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/src/Page/Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="102" column="78" selection-start-line="102" selection-start-column="78" selection-end-line="102" selection-end-column="78" />
+          <folding>
+            <element signature="e#4321#4340#1" />
+            <element signature="e#4749#4750#0" expanded="true" />
+            <element signature="method#setError#0;class#Form#0" />
+            <element signature="docComment;method#load#0;class#Form#0" expanded="true" />
+            <element signature="method#tattle#0;class#Form#0" />
+            <element signature="e#4833#4891#1" />
+            <element signature="e#6047#6048#0" expanded="true" />
+            <element signature="e#6428#6429#0" expanded="true" />
+            <element signature="e#6470#6471#0" expanded="true" />
+            <element signature="e#6555#6556#0" expanded="true" />
+            <element signature="e#6486#6528#1" />
+            <element signature="e#7958#7959#0" expanded="true" />
+            <element signature="method#parse#0;class#Form#0" />
+            <element signature="method#parse#1;class#Form#0" />
+            <element signature="method#clone#0;class#Form#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/src/UI/AbstractGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#AbstractGUI#0" expanded="true" />
+            <element signature="method#AbstractGUI#0;class#AbstractGUI#0" />
+            <element signature="e#1319#1366#0" expanded="true" />
+            <element signature="e#1243#1263#0" expanded="true" />
+            <element signature="method#addButtons#0;class#AbstractGUI#0" />
+            <element signature="e#1828#2041#1" />
+            <element signature="e#1218#1254#0" expanded="true" />
+            <element signature="e#1652#1670#0" expanded="true" />
+            <element signature="method#calculateTotal#0;class#AbstractGUI#0" />
+            <element signature="method#choose#0;class#AbstractGUI#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/src/UI/Desktop/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addButtons#0;class#GUI#0" />
+            <element signature="method#next#0;class#GUI#0" />
+            <element signature="docComment;method#actionPerformed#0;class#Listener#0;class#GUI#0" expanded="true" />
+            <element signature="e#5004#5005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CopyRIGHT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>desktop</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

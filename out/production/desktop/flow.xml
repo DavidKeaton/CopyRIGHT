@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- find @ [res/xml/flow.xml] -->
+<!-- @author David Keaton -->
+<!-- @author Michael Simonetti -->
+<resources>
+    <!--
+        <Form>
+            <... id="{ID}"      the ID for the given Form
+        <Page>      is each set of choices with a given question's text
+            <... id="{ID}"      the ID for the given Page
+        <Text>     is the text to display for the Page
+        <Choice>   is each choice for the given page
+            <... weight="{x}"   the weight of the given choice  [optional]
+            <... redir="{ID}"   where this choice redirects     [optional]
+            S0 First page
+            S1 determ page
+            TODO S2 kill page
+            TODO S3 CC page -> kill
+            S4 additonal resources
+            s5 teach act
+            TODO s6 you are good -> kill
+            s7 get permission
+
+    -->
+
+<Form id="S">
+    <Page id="EUA" >
+        <Text>CopyRIGHT helps BRCC staff and employees make a good faith
+            effort to determine whether use of copyrighted material
+            for Blue Ridge Community College purposes adheres
+            to fair use standards. The app relies on your input
+            to help you make an informed decision. As such, your
+            input to help you make an informed decision. As such,
+            your best effort in giving logical, informed answers
+            to each question is necessary. In using any
+            copyrighted materials, you are ultimately responsible
+            for the decision you make.</Text>
+        <Choice redir="S0">Agree</Choice>
+        <Choice redir="S2">Disagree</Choice>
+    </Page>
+    <Page id="S0">
+        <Text>What do you want to do?</Text>
+        <Choice redir="P1">Copy and distribute a published works.</Choice>
+        <Choice redir="I1">Use a picture in a slideshow.</Choice>
+        <Choice redir="V1">Use a video clip.</Choice>
+    </Page>
+    <Page id="S1">
+        <Text>Final Determination: %f%
+            If &gt; 50%, then Fair Use Suggested
+            If &lt; 50%, then Fair Use NOT Suggested.
+        </Text>
+    </Page>
+    <Page id="S2">
+        <Text>KILL PAGE
+        </Text>
+    </Page>
+    <Page id="S3">
+        <Text>Follow the license instructions given here: https://creativecommons.org/licenses/
+        </Text>
+    </Page>
+    <Page id="S4">
+        <Text>Please consult additional resources regarding the potential use of the video
+        </Text>
+        <Choice redir="V3">Continue</Choice>
+    </Page>
+    <Page id="S5">
+        <Text>Please consult the TEACH Act regarding the potential use of the video.
+            (http://copyright.psu.edu/psu-policy/teach-act/)
+        </Text>
+        <Choice redir="V4">Continue</Choice>
+    </Page>
+    <Page id="S6">
+        <Text>As long as you are using a legally obtained copy of the film or vide,
+        you are withing fair use</Text>
+        <choice redir="S2">Continue</choice>
+    </Page>
+    <Page id="S7">
+        <Text>Must obtain permissions from copyright holders</Text>
+        <Choice redir="P2">Continue</Choice>
+    </Page>
+</Form>
+    <!-- P -->
+    <Form id="P">
+        <Page id="P1">
+            <Text>What is the purpose of the copy?</Text>
+            <Choice weight=".25">Teaching</Choice>
+            <Choice weight=".25">Criticism</Choice>
+            <Choice weight=".25">Comment</Choice>
+            <Choice weight=".25">News Reporting</Choice>
+            <Choice weight=".25">Scholarship/Research</Choice>
+            <Choice redir="S7">Publication</Choice>
+            <Choice redir="S7">Other</Choice>
+        </Page>
+        <Page id="P2">
+            <Text>What is the nature of the work?</Text>
+            <Choice weight=".05">Factual</Choice>
+            <Choice weight=".05">Informational</Choice>
+            <Choice weight=".25">Author's opinion/Evaluation</Choice>
+            <Choice>Author's subjective description</Choice>
+            <Choice>Author's analysis</Choice>
+        </Page>
+        <Page id="P3">
+            <Text>What portion of the work is copied?</Text>
+            <Choice redir="P5">&gt; 10% of work?</Choice>
+            <Choice >&lt; 10% of work?</Choice>
+        </Page>
+        <Page id="P4">
+            <Text>Is there a means available to obtain permissions?</Text>
+            <Choice redir="P7">Yes</Choice>
+            <Choice redir="S1" weight=".40">No</Choice>
+        </Page>
+        <Page id="P5">
+            <Text>Is excerpted copy a full chapter or more?</Text>
+            <Choice redir="P4">Yes</Choice>
+            <Choice redir="P6">No</Choice>
+        </Page>
+        <Page id="P6">
+            <Text>Is excerpted copy the heart of the work?</Text>
+            <Choice redir="P4">Yes</Choice>
+            <Choice redir="P4" weight=".30">No</Choice>
+        </Page>
+        <Page id="P7">
+            <Text>Would there be substantial damage to market if
+                everyone copied/used excerpt?</Text>
+            <Choice redir="P8">Yes</Choice>
+            <Choice redir="S1" weight=".40">No</Choice>
+        </Page>
+        <Page id="P8">
+            <Text>Are permissions fees(per student/page) unreasonably "excessive" in larger
+            classes?</Text>
+            <Choice redir="S1" weight=".40">Yes</Choice>
+            <Choice redir="S1">No</Choice>
+        </Page>
+
+    </Form>
+
+    <!-- I -->
+    <Form name="I">
+        <Page id="I1">
+            <Text>Does the picture have a Creative Commons license?</Text>
+            <Choice redir="S3">Yes</Choice>
+            <Choice>No</Choice>
+            <Choice>I don't know</Choice>
+        </Page>
+        <Page id="I2">
+            <Text> What is the purpose of the picture?</Text>
+            <Choice weight=".25">Teaching</Choice>
+            <Choice weight=".25">Criticism</Choice>
+            <Choice weight=".25">Comment</Choice>
+            <Choice weight=".25">News Reporting</Choice>
+            <Choice weight=".25">Scholarship/Research</Choice>
+            <Choice>Publication</Choice>
+            <Choice>Posting to social media</Choice>
+            <Choice>Other</Choice>
+        </Page>
+        <Page id="I3">
+            <Text> Nature of the picture: Is it published?</Text>
+            <Choice weight=".05">Yes</Choice>
+            <Choice>No</Choice>
+        </Page>
+        <Page id="I4">
+            <Text>What portion of image is being used?</Text>
+            <Choice>The whole image</Choice>
+            <Choice weight=".15">A small part of a larger image</Choice>
+            <Choice weight=".30">A thumbnail with a link to the larger image.</Choice>
+        </Page>
+        <Page id="I5">
+            <Text>Will the photo be used in a commercial venture?</Text>
+            <Text>Is it possible to obtain permission?</Text>
+            <Choice redir="S1">Yes/Yes</Choice>
+            <Choice redir="S1" weight=".20">Yes/No</Choice>
+            <Choice redir="S1" weight=".20" perms="Obtain">No/Yes</Choice>
+            <Choice redir="S1" weight=".40">No/No</Choice>
+        </Page>
+
+    </Form>
+    <!-- V -->
+    <Form name="V">
+        <Page id="V1">
+            <Text>Are you using the film or video in a physical classroom during your regular
+            teaching time?</Text>
+            <Choice redir="S1" weight="1.00">Yes</Choice>
+            <Choice>No</Choice>
+        </Page>
+        <Page id="V2">
+            <Text>Are you using the film or video in an online educational setting?</Text>
+            <Choice redir="S6">Yes</Choice>
+            <Choice redir="S4">No</Choice>
+        </Page>
+        <Page id="V3">
+            <Text>Will the video only be accessible to only students enrolled in your
+            class through Blackboard or Canvas?</Text>
+            <Choice>Yes</Choice>
+            <Choice redir="S5">No</Choice>
+        </Page>
+        <Page id="V4">
+            <Text>What is the purpose of the video or video clip?</Text>
+            <Choice weight=".25">Teaching(classroom use)</Choice>
+            <Choice weight=".25">Criticism</Choice>
+            <Choice weight=".25">Comment</Choice>
+            <Choice weight=".25">News Reporting</Choice>
+            <Choice weight=".25">Scholarship/Research</Choice>
+            <Choice>Publication</Choice>
+            <Choice>Posting to social media</Choice>
+            <Choice>Other</Choice>
+        </Page>
+        <Page id="V5">
+            <Text>Nature of the film: Is it published?</Text>
+            <Choice weight=".05">Yes</Choice>
+            <Choice>No</Choice>
+        </Page>
+        <Page id="V6">
+            <text>What portion of the video is being used?</text>
+            <Choice>The whole video</Choice>
+            <Choice weight=".15">A sizable portion greater than 5% but necessary for
+            educational purposes</Choice>
+            <Choice weight=".30">A small clip less than 5% and not the heart of the work</Choice>
+        </Page>
+        <Page id="V7">
+            <Text>1.Will the use of this video harm the market for the film(i.e. is this
+            content that students would reasonably be expected to purchase?)
+            2. Is the use of this film transformative(i.e. was it originally published for
+            entertainment purposes?</Text>
+            <Choice redir="S1" weight=".10">Yes/Yes</Choice>
+            <Choice redir="S1">Yes/No</Choice>
+            <Choice redir="S1" weight=".40" >No/Yes</Choice>
+            <Choice>No/No</Choice>
+
+        </Page>
+        <Page id="V8">
+            <Text>Is gaining permission to use the film available?</Text>
+            <Choice redir="S1" weight=".2">Asking permission is the best option</Choice>
+            <Choice redir="S1" weight=".4">No</Choice>
+        </Page>
+    </Form>
+</resources>

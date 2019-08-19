@@ -1,0 +1,61 @@
+@startuml
+package Chapter {
+    class Question {
+        -question : String
+        -weight : double
+
+        +Question(String, double)
+        +get() : Object[]
+        +set(String, double) : void
+    }
+
+    class Page {
+        -number : int
+        -questions : ArrayList<Question>
+
+        +Page(int)
+        +Page(int, Question[])
+        +Page(int, String[], double[])
+
+        +add(Question) : void
+        +add(Question[]) : void
+        +add(String, double) : void
+        +add(String[], double[]) : void
+
+        #getID() : int
+
+        +get() : Question[]
+        +get(int) : Question
+
+        #set(int, Question) : void
+        #set(int, String, double) : void
+        #set(int[], Question[]) : void
+        #set(int[], String[], double[]) : void
+    }
+
+    class Chapter {
+        -pages : Map<int,Page>
+        -currentPage : int
+
+        +Chapter()
+        +Chapter(Chapter[])
+
+        +add(Chapter) : void
+        +get(int) : Chapter
+    }
+
+    abstract class DBHelper {
+        -name : String
+        -results : Result
+
+        +DBHelper(db_name : String)
+
+        #open(db_name : String) : boolean
+        #close()
+        #connect()
+
+        +query(sql_statement : String) : Result
+        +getResults() : Result
+    }
+}
+@enduml
